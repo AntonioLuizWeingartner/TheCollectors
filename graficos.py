@@ -37,7 +37,7 @@ class GerenteInterfaceGrafica:
             img = self.__selecionar_imagem(pos)
             x = pos.x()
             y = pos.y()
-            l = self.__get_label(x,
+            l = self.__get_label(x,y)
             l.configure(image=img)
             l.image = img
 
